@@ -1,0 +1,47 @@
+# Python caches and virtual environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+secrets/
+*.pem
+*.key
+config.local.py
+
+# Research data — excluded from this public version
+/data/
+
+# Generated input/output directories
+/input/
+/output/
+/outputs/
+/logs/
+
+# Databases
+*.db
+*.sqlite
+*.sqlite3
+
+# HPC logs
+slurm-*.out
+slurm-*.err
+*.log
+
+# Model weights and checkpoints
+models/
+checkpoints/
+*.safetensors
+*.gguf
+*.pt
+*.pth
+
+# Operating-system files
+.DS_Store
+Thumbs.db
