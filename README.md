@@ -221,7 +221,7 @@ the retained scripts.
 ## Author
 
 Carishmarahamathi Ahamed Khan  
-M.Sc. Computer Science, University of Trier
+M.Sc. Data Science, University of Trier
 
 ## Third-Party Materials
 
